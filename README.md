@@ -1,16 +1,109 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 AI SmartCart
 
-Currently, two official plugins are available:
+An E-commerce Platform with Personalized Product Recommendations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
 
-## React Compiler
+AI SmartCart is a full-stack e-commerce web application that allows users to browse products, search and filter products, add products to cart and wishlist, and complete checkout using Razorpay test payments.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The platform also provides personalized product recommendations based on users' purchase history.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User Registration and Login
+- JWT Authentication
+- Role-Based Access (User and Admin)
+- Product Listing and Product Details
+- Search, Category and Brand Filtering
+- Shopping Cart
+- Wishlist
+- Personalized Product Recommendations
+- Admin Dashboard
+- Product Management (Add, Edit, Delete)
+- Order Management
+- User Management
+- Analytics Dashboard
+- Razorpay Test Payment Integration
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- React Router
+- React Icons
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
+- bcrypt
+
+### Database
+- MySQL
+
+### Payment Integration
+- Razorpay (Test Mode)
+
+## 📂 Project Structure
+
+```text
+AI-SmartCart/
+├── frontend/
+│   ├── public/
+│   └── src/
+├── backend/
+│   ├── config/
+│   ├── middleware/
+│   ├── routes/
+│   ├── server.js
+│   └── seedAdmin.js
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/samruddhidhomane-source/AI-SmartCart.git
+```
+
+### 2. Start the Frontend
+
+```bash
+cd AI-SmartCart/frontend
+npm install
+npm run dev
+```
+
+### 3. Start the Backend
+
+Open another terminal:
+
+```bash
+cd AI-SmartCart/backend
+npm install
+node server.js
+```
+
+### 4. Database Setup
+
+- Create a MySQL database named `ai_smartcart`.
+- Configure your database credentials in the backend `.env` file.
+- Set up the required database tables.
+
+## 🔐 Environment Variables
+
+Create a `.env` file inside the backend folder and configure the required database, JWT, and Razorpay test credentials.
+
+**Do not upload your `.env` file or secret keys to GitHub.**
+
+## 👩‍💻 Developer
+
+Developed as a full-stack E-commerce project using React, Node.js, Express.js, and MySQL.
