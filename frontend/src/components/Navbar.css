@@ -1,0 +1,37 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:#2E7D32;
+    color:white;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.search-box{
+    width:300px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+}
+
+.cart{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.logo,
+.cart {
+    color: white;
+    text-decoration: none;
+}
+
+.logo:hover,
+.cart:hover {
+    color: yellow;
+}
